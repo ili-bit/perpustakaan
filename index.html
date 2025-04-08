@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjana Judul Buku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>📚 Penjana Judul Buku 📚</h2>
+        <label for="kategori">Pilih Kategori:</label>
+        <select id="kategori">
+            <option value="Fiksyen">Fiksyen</option>
+            <option value="Bukan Fiksyen">Bukan Fiksyen</option>
+            <option value="Komik">Komik</option>
+            <option value="Novel">Novel</option>
+        </select>
+        <button onclick="cadangBuku()">📖 Cadangkan Buku</button>
+
+        <div id="hasil"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
